@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/기본틀.css">
+    <title>사진관 예약</title>
+</head>
+<body>
+    <script src="calendar.js"></script>
+    <header>
+        <img src="img/KakaoTalk_20231129_172804445.jpg" name="logo">
+        <nav>
+            <div id="logout">로그아웃</div>
+            <div id="MyPage">MyPage</div>
+        </nav>
+    </header>
+    <section>
+        <h1>사진관 예약</h1><br>
+        <table class="Calendar">
+            <thead>
+                <tr>
+                    <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
+                    <td colspan="5">
+                        <span id="calYear"></span>년
+                        <span id="calMonth"></span>월
+                    </td>
+                    <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
+                </tr>
+                <tr>
+                    <td>일</td>
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <form action="/your-backend-url" method="POST">
+            <button class="submit" type="submit">제출하기</button>
+        </form>
+    </section>
+    <footer>
+        <h3>Contact</h3>
+        <div class="copyright">한승우 옥선우 정종욱</div>
+        <div class="email">peter001019@naver.com</div>
+    </footer>
+</body>
+</html>
+
