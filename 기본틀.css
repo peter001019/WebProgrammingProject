@@ -20,8 +20,14 @@ header nav{
     justify-content: space-between;
     gap: 50px;
 }
+nav #loginButton:hover{
+    cursor: pointer;
+}
 nav #MyPage{
     font-weight: bolder;
+}
+nav #MyPage:hover{
+    cursor: pointer;
 }
 section{
     display: flex;
