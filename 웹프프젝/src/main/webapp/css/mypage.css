@@ -1,0 +1,34 @@
+#myname {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#myname img {
+    width: 30px;
+}
+
+#email {
+    font-size: 40px;
+}
+
+#correction {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#email_block {
+    margin-bottom: 20px;
+}
+
+#passwd_block {
+    margin-bottom: 20px;
+    
+}
+
+#correction button {
+    float: right;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(187, 187, 187);
+}

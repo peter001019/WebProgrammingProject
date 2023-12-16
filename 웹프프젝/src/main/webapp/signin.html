@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+  <link rel="stylesheet" href="css/sign_up.css">
+  <meta charset="UTF-8">
+  <title>동국네컷</title>
+</head>
+
+<body class="wrapper">
+  <header>
+    <div>
+      <img src="img/로고.svg" alt="로고">
+    </div>
+  </header>
+
+  <div id="content">
+    <a href="#">
+      <img src="img/arrow-left.svg" alt="화살표">
+    </a>
+    <div id="logofont">Sign up</div>
+    <form id="outlogbox" method="post" action="joinAction.jsp">
+      <div id="inlogbox">
+        <table>
+          <tr>
+            <td id="table_size">ID : </td>
+            <td><input type="text" name="id"></t>
+          </tr>
+        </table>
+        <hr>
+        <table>
+          <tr>
+            <td id="table_size">PW : </td>
+            <td><input type="password" name="passwd"></td>
+          </tr>
+        </table>
+        <hr>
+        <table>
+          <tr>
+            <td id="table_size">확인 : </td>
+            <td><input type="password" name="passwd_check"></td>
+          </tr>
+        </table>
+      </div>
+      <input id="submit_signup" type="submit" value="회원 가입">
+    </form>
+  </div>
+
+  <footer>
+    <b>Contact</b>
+    <span class="copyright">한승우 옥선우 정종욱</span>
+    <span class="email">peter001019@naver.com</span>
+  </footer>
+</body>
+
+</html>
