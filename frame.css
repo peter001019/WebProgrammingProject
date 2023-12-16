@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hedvig+Letters+Sans&family=Hedvig+Letters+Serif:opsz@12..24&family=Noto+Sans+KR:wght@300&family=Roboto:ital@1&display=swap');
+
+/*뒷배경*/
+.wrapper{
+    max-width: 1440px;
+    height: 1024px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 30px;
+    padding: 12px 80px;
+    border-bottom: 1px solid #FFBE99;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header img {
+    width: 180px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+nav #MyPage {
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    /* border: 1px solid #FFBE99; */
+}
+
+footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FE730F;
+    min-height: 50px;
+    justify-content: space-between;
+}
+
+footer .copyright,
+.email {
+    color: black;
+    font-size: 18px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .copyright {
+    justify-content: center;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
