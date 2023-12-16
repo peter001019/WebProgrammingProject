@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="frame.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="mypage.css">
+    <title>Main_page</title>
+</head>
+
+<body class="wrapper">
+    <!-- 헤더 부분 -->
+    <header>
+        <div>
+            <img src="로고.svg" alt="로고">
+        </div>
+
+        <nav>
+            <div id="logout">로그아웃</div>
+            <div id="MyPage"><a href="#">MyPage</a></div>
+        </nav>
+
+    </header>
+
+    <!-- 옆에 내비게이션 -->
+    <main class="container">
+        <div id="menu">
+            <div id="menu_title">메뉴</div>
+            <ul>
+                <li><a href="#">내 프로필</a></li>
+                <li><a href="#">사진 보기</a></li>
+                <li><a href="#">예약 현황</a></li>
+                <li><a href="#">친구 관리</a></li>
+                <li><a href="#">포즈 추천</a></li>
+            </ul>
+        </div>
+        <!-- 컨텐츠 부분 -->
+        <div id="content">
+            <div id="content_box">
+                <!-- 여기에 컨텐츠를 넣으시오 -->
+                <table id="myname">
+                    <tr>
+                        <td rowspan="2"><img src="열쇠.svg" alt="열쇠"></td>
+                        <td>Honggildong</td>
+                    </tr>
+                    <tr>
+                        <!-- 이런식의 문구 추가 -->
+                        <td id="email">ex. 와 저희를 벌써 n번 이용했네요!</td>
+                    </tr>
+                </table>
+                <hr>
+                <div id="correction">
+                    <div id="email_block">
+                        (현재 e-mail)
+                        <button>수정</button>
+                    </div>
+                    <div id="passwd_block">
+                        비밀 번호 수정
+                        <button>수정</button>
+                    </div>
+                </div>
+                <hr>
+                <div id="self_intro_title"> 
+                    자기 소개
+                </div>
+                <div id="self_intro">
+                    (여기에 자기소개 페이지)
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer 부분 -->
+    <footer>
+        <b>Contact</b>
+        <span class="copyright">한승우 옥선우 정종욱</span>
+        <span class="email">peter001019@naver.com</span>
+    </footer>
+</body>
+
+</html>

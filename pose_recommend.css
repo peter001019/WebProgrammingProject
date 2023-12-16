@@ -1,0 +1,53 @@
+#title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.select_box {
+    width: 500px;
+    height: 480px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.select_box img {
+    width: 400px;
+}
+
+.select_box:hover {
+    transform: scale(1.1);
+}
+
+.img_explain {
+    font-size: 40px;
+}
+
+#select_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#recommended_img img {
+    width: 650px;
+    padding-left: 230px;
+    padding-top: 40px;
+}
+
+#goto_picture {
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 310px;
+    width: 500px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 30px;
+    line-height: 60px;
+}

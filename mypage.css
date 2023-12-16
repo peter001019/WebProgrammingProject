@@ -1,0 +1,52 @@
+#myname {
+    font-size: 60px;
+    margin-bottom: 50px;
+    width: 800px;
+    margin-left: px;
+}
+
+#myname img {
+    width: 30px;
+}
+
+#email {
+    font-size: 40px;
+}
+
+#correction {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#email_block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#passwd_block {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#self_intro_title {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#correction button {
+    float: right;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(187, 187, 187);
+}
+
+#self_intro {
+    padding-top: 15px;
+    
+}
+
+#myname td {
+    size: 100px;
+}

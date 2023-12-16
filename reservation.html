@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="kor">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="frame.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="reservation.css">
+        <title>Main_page</title>
+    </head>
+
+    <body class="wrapper">
+        <!-- 헤더 부분 -->
+        <header>
+            <div>
+                <img src="로고.svg" alt="로고">
+            </div>
+
+            <nav>
+                <div id="logout">로그아웃</div>
+                <div id="MyPage"><a href="#">MyPage</a></div>
+            </nav>
+
+        </header>
+
+        <!-- 옆에 내비게이션 -->
+        <main class="container">
+            <div id="menu">
+                <div id="menu_title">메뉴</div>
+                <ul>
+                    <li><a href="#">내 프로필</a></li>
+                    <li><a href="#">사진 보기</a></li>
+                    <li><a href="#">예약 현황</a></li>
+                    <li><a href="#">친구 관리</a></li>
+                    <li><a href="#">포즈 추천</a></li>
+                </ul>
+            </div>
+            <!-- 컨텐츠 부분 -->
+            <div id="content">
+                <div id="content_box">
+                    <h2>OOO님의 예약 현황 보기</h2>
+                    <table id="reservation_table">
+                        <tr>
+                            <td>예약번호</td>
+                            <td>예약인원</td>
+                            <td>예약 사진관</td>
+                            <td>~~~</td>
+                        </tr>
+                        <!-- <%
+                int id, ref;
+                int rownum = 0;
+                Connection conn = null;
+                Statement stmt = null;
+                String sql = null;
+                ResultSet rs = null;
+        
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    String url = "jdbc:mysql://localhost:3306/wptest?serverTimezone=UTC";
+                    conn = DriverManager.getConnection(url, "root", "0000");
+                    stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+                    sql = "select * from board_tbl order by ref desc, id asc ";
+                    rs = stmt.executeQuery(sql);
+                } catch (Exception e) {
+                    out.println("DB 연동 오류입니다.: " + e.getMessage());
+                }
+                rs.last();
+                rownum = rs.getRow();
+                rs.beforeFirst();
+        
+                while (rs.next()) {
+                    id = Integer.parseInt(rs.getString("id"));
+                    ref = Integer.parseInt(rs.getString("ref"));
+                %> -->
+                        <tr>
+                            <!-- TODO -->
+                            <td>
+                                <!-- <%=rownum %> -->
+                            </td>
+                            <td>
+                                <!-- <%=rs.getString("name") %> -->
+                            </td>
+                            <td>
+                               <!-- <%=rs.getString("title") %> -->
+                            </td>
+                            <td>
+                                <!-- <%=rs.getString("e_mail") %> -->
+                            </td>
+                        </tr>
+                        <!-- <%
+                rownum--;
+                }
+                %> -->
+                    </table>
+                    <!-- <%
+                stmt.close();
+                conn.close();
+            %> -->
+                </div>
+            </div>
+        </main>
+
+        <!-- footer 부분 -->
+        <footer>
+            <b>Contact</b>
+            <span class="copyright">한승우 옥선우 정종욱</span>
+            <span class="email">peter001019@naver.com</span>
+        </footer>
+    </body>
+
+    </html>
+</body>
+
+</html>

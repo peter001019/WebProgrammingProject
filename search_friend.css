@@ -1,0 +1,43 @@
+#title {
+    text-align: center;
+    font-size: 40px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+#search_box {
+    margin-top: 35px;
+    margin-left: 285px;
+    margin-right: 200px;
+    width: 510px;
+    font-size: 30px;
+}
+
+#explain {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#submit_box {
+    margin-top: 30px;
+    margin-left: 372px;
+    width: 350px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+#friend_list {
+    margin-top: 50px;
+    margin-left: 100px;
+}

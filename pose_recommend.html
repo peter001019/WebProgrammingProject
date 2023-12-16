@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="frame.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="pose_recommend.css">
+    <title>Main_page</title>
+</head>
+
+<body class="wrapper">
+    <!-- 헤더 부분 -->
+    <header>
+        <div>
+            <img src="로고.svg" alt="로고">
+        </div>
+
+        <nav>
+            <div id="logout">로그아웃</div>
+            <div id="MyPage"><a href="#">MyPage</a></div>
+        </nav>
+
+    </header>
+
+    <!-- 옆에 내비게이션 -->
+    <main class="container">
+        <div id="menu">
+            <div id="menu_title">메뉴</div>
+            <ul>
+                <li><a href="#">내 프로필</a></li>
+                <li><a href="#">사진 보기</a></li>
+                <li><a href="#">예약 현황</a></li>
+                <li><a href="#">친구 관리</a></li>
+                <li><a href="#">포즈 추천</a></li>
+            </ul>
+        </div>
+        <!-- 컨텐츠 부분 -->
+        <div id="content">
+            <div id="content_box">
+                <div id="title">현재 몇명인가요?</div>
+                <div id="select_container">
+                    <span class="select_box" onclick="location.href='#'">
+                        <img src="한사람.svg" alt="한사람">
+                        <hr>
+                        <div class="img_explain">한 사람</div>
+                    </span>
+                    <span class="select_box"onclick="location.href='#'">
+                        <img src="두사람.svg" alt="두사람">
+                        <hr>
+                        <div class="img_explain">한 사람이상</div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer 부분 -->
+    <footer>
+        <b>Contact</b>
+        <span class="copyright">한승우 옥선우 정종욱</span>
+        <span class="email">peter001019@naver.com</span>
+    </footer>
+</body>
+
+</html>

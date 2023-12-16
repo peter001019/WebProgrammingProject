@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hedvig+Letters+Sans&family=Hedvig+Letters+Serif:opsz@12..24&family=Noto+Sans+KR:wght@300&family=Roboto:ital@1&display=swap');
+
+#menu {
+    /* background-color: peachpuff; */
+    vertical-align: top;
+    font-size: medium;
+    border-right: 2px solid #FFBE99;
+    border-left: 2px solid #FFBE99;
+    min-width: 200px;
+    width: 200px;
+    padding: auto;
+    margin-top: 0;
+    min-height: 80vh;
+    height: 1085px;
+    position: inherit;
+
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 아이템들을 배치 */
+    align-items: flex-start; /* 아이템들을 왼쪽으로 정렬 */ 
+    background-color: #f8e0d3;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+#menu li {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#menu li:hover {
+    transform: scale(1.1);
+}
+
+#menu_title{
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+#content {
+    position: inherit;
+    width: 900px;
+    height: 1024px;
+    min-width: 300px;
+    padding: 30px;
+}
+
+#content_box{
+    width: 1100px;
+    height: 925px;
+    border-radius: 30px;
+    border: 1px solid #FFBE99;
+    background: #FFF;
+    padding: 50px;
+}
+
+#logo {
+    width: 70%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    width: auto;
+    padding: 50px;
+    padding-left: 45px;
+    height: auto;
+}
