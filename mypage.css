@@ -38,8 +38,17 @@
 #correction button {
     float: right;
     cursor: pointer;
-    border-radius: 30px;
-    background-color: rgb(187, 187, 187);
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+#self_intro_title button {
+    float: right;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
 }
 
 #self_intro {
